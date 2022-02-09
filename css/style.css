@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Meow+Script&family=Raleway:wght@500&display=swap");
+
+
+.mynavbar {
+  background-color: #0066da;
+  color: white;
+  font-family: "Meow Script", cursive;
+  font-size: 40px;
+}
+
+.numbersbg {
+  background-image: url(../images/pexels-roman-odintsov-6332016.jpg);
+  height: 20vh;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 1000px #0057daab;
+}
+
+.mytext {
+  color: white;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mynumber {
+  color: white;
+  font-family: "Meow Script", cursive;
+  font-size: 60px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hover08 .figure img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.hover08 .figure:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.image2 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Slide in overlay */
+
+.container1 {
+  position: relative;
+}
+
+.image1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008bba94;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 20%;
+  left: 43%;
+  right: 0;
+  background-color: #ffffff9d;
+  overflow: hidden;
+  width: 14%;
+  height:0;
+  transition: .5s ease;
+  border-radius: 50%;
+}
+
+.container1:hover .overlay1 {
+  height: 30%;
+}
+
+.container1:hover .overlay2 {
+  height: 20%;
+}
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@import url('https://css.gg/search.css');
+
+.gg-search {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 16px;
+  height: 16px;
+  border: 2px solid;
+  border-radius: 100%;
+  border-color: #008bba;
+  margin-left: -4px;
+  margin-top: -4px
+}
+.gg-search::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 3px;
+  width: 2px;
+  height: 8px;
+  background: #008bba;
+  transform: rotate(-45deg);
+  top: 10px;
+  left: 12px
+}
+
+
+
